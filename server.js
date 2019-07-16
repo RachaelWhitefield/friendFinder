@@ -10,10 +10,10 @@ app.get("/", function(req, res) {
 })
 
 app.use(express.urlencoded({ extended: true}));
- app.use(express.json());
+app.use(express.json());
  
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+var apiRoutes = require("./routes/apiRoutes")(app);
+var htmlRoutes = require("./routes/htmlRoutes")(app);
 
 app.listen(PORT, function() {
     console.log(`App listening on PORT ${PORT}`);
