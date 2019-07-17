@@ -4,7 +4,7 @@ var friends = [
         photo: "https://cdn.flickeringmyth.com/wp-content/uploads/2018/07/captain-america-avengers-4-600x717-600x454.jpg",
         scores: [
             1,
-            5,
+            4,
             4,
             4,
             5,
@@ -84,7 +84,7 @@ var friends = [
         name: "The Wasp",
         photo:  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsVMF8oowEZdVBD8U3E6yY3Tl1nKE397gAmsqgkfVNY8lS4He6tA",
         scores: [
-            1,
+            3,
             2,
             3, 
             4,
@@ -99,3 +99,11 @@ var friends = [
 ]
 
 module.exports = Friends
+
+// SCORES
+// CAPTAIN AMERICA - 31
+// THOR - 32
+// BLACK PANTHER - 33
+// BLACK WIDOW - 24
+// VALKYRIE - 30
+// WASP - 35
