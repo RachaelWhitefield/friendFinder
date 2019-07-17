@@ -46,7 +46,7 @@ var friends = [
             2,
             1,
             5
-        ]
+        ]     
     },
     {
         name: "Black Widow",
