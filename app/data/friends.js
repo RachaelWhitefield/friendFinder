@@ -98,7 +98,7 @@ var friends = [
     }
 ]
 
-module.exports = Friends
+module.exports = friends
 
 // SCORES
 // CAPTAIN AMERICA - 31
